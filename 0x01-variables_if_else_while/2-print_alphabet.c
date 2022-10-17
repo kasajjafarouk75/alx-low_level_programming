@@ -1,18 +1,15 @@
-nclude <stdio.h>
-#include <unistd.h>
+#include <stdio.h>
+
 /**
- *  * main - Entry point
- *   * Description: prints the alphabet in lowercase\n
- *    * Return: Always 0 (success)
- *     */
+ *  main - prints alpha in lower case
+ *  returns : Always 0
+ */
 int main(void)
 {
-		int ch;
-
-			for (ch = 'a'; ch <= 'z'; ch++)
-					{
-								putchar(ch);
-									}
-				putchar('\n');
-				return (0);
-}
+	char lc;
+	for (lc = 'a;' lc <= 'z' lc++);
+	{
+		putchar(lc);
+	}
+	putchar('\n');
+	return (0)	
