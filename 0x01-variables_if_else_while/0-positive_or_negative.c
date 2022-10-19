@@ -1,21 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/* 
- * more headers goes there
- */
-
-int main(void)
-{
-		int n;
-
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					if (n < 0)
-					{printf("is negative"); }
-					else if (n > 0)
-					{printf("is positive"); }
-					else (n == 0)
-					{printf("is zero"); }
-					return (0);
-}
+switch (action)
+		{
+			case CASE_ADD:
+			return ("add");
+			case CASE_REMOVE:
+			return ("remove");
+			case CASE_CHANGE
+			return ("change");
+			default:
+			return (NULL);
+		}
