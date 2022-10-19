@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alpha 10 times
+ * add - adds two integers and returns the result
+ * @a: int to be added to b
+ * @b: int to be added to a
+ * Return: sum of a and b
  */
+int add(int a, int b)
+{
+	int c;
 
-void print_alphabet_x10(void)
+	c = a + b;
 
-	int main(void)
-
-{	int ten;
-	char la;
-
-	for (ten = 0; ten <= 9; ten++)
-		_putchar(la);
-	_putchar('\n');
-
-	return (0);
+	return (c);
 }
